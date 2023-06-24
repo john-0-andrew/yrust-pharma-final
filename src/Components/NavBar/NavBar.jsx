@@ -42,23 +42,33 @@ function NavBar() {
         <nav className="nav">
           <ul className="pt-5">
             <li>
-              <a href="#work" onClick={closeNav}>
-                Work
+              <a href="#home" onClick={closeNav}>
+                Home
               </a>
             </li>
             <li>
               <a href="#" onClick={closeNav}>
-                Studio
+                About Us
               </a>
             </li>
             <li>
               <a href="#" onClick={closeNav}>
-                News
+                Products
               </a>
             </li>
             <li>
               <a href="#" onClick={closeNav}>
-                Contact
+                Team
+              </a>
+            </li>
+            <li>
+              <a href="#" onClick={closeNav}>
+                Why Trust Pharma ?
+              </a>
+            </li>
+            <li>
+              <a href="#" onClick={closeNav}>
+                Contact Us
               </a>
             </li>
           </ul>

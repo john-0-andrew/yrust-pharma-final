@@ -14,7 +14,7 @@
 }
 
 .header.scrolled {
-  background-color: rgba(255, 255, 255, 0.358);
+  background-color: rgba(255, 255, 255, 0.642);
 }
 .logo.scrolled {
     filter: drop-shadow(5px 5px 10px #ffffff)
@@ -191,20 +191,19 @@
 }
 .nav ul li a {
   font-family: "Montserrat", sans-serif;
-  font-size: 9vh;
+  font-size: 5vh;
   text-transform: uppercase;
   line-height: 1.2;
-  font-weight: 800;
-  display: inline-block;
+  font-weight: 700;
   position: relative;
-  color: #3045bb;
+  color: #25408f;
   transition: all 250ms linear;
   /* text-decoration: none; */
   /* Remove underline */
 }
 .nav ul li a:hover {
   text-decoration: none;
-  color: #b16a19;
+  color: #F99b1c;
 }
 /* .nav ul li a:after {
   display: block;
@@ -242,6 +241,12 @@
 .menu-icon:checked ~ .nav ul li:nth-child(4) {
   transition-delay: 1640ms;
 }
+.menu-icon:checked ~ .nav ul li:nth-child(5) {
+  transition-delay: 1740ms;
+}
+.menu-icon:checked ~ .nav ul li:nth-child(6) {
+  transition-delay: 1840ms;
+}
 
 .logo {
   position: fixed;
@@ -269,6 +274,6 @@
   }
 
   .nav ul li a {
-    font-size: 8vh;
+    font-size: 5vh;
   }
 }
