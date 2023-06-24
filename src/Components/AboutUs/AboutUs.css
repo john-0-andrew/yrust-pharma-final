@@ -22,8 +22,8 @@ body {
     align-items: center;
     background-color: #F99B1C;
     color: white;
-    border-top-left-radius: 50px;
-    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
 }
 
 a {
