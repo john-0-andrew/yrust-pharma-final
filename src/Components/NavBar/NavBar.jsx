@@ -47,7 +47,7 @@ function NavBar() {
               </a>
             </li>
             <li>
-              <a href="#" onClick={closeNav}>
+              <a href="#about-us" onClick={closeNav}>
                 About Us
               </a>
             </li>
