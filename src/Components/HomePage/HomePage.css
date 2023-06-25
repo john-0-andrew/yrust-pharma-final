@@ -10,7 +10,7 @@
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), transparent),
     url("../../assets//BackGround3.jpg");
   background-size: cover;
-  background-position: center;
+  background-position: 100%;
   /* padding: 0 8%; */
   position: relative;
 }
@@ -18,8 +18,8 @@
 .text-box {
   color: #fff;
   position: absolute;
-  bottom: 250px;
-  left: 100px;
+  top: 40%;
+  left: 5%;
 }
 .text-box p {
   font-size: 30px;
@@ -36,12 +36,50 @@
   background-position: 0 0;
   animation: back 20s linear infinite;
 }
+.text-box h3 {
+  font-size: 30px;
+  font-weight: 500;
+}
 @keyframes back {
   100% {
     background-position: 2000px 0;
   }
 }
-.text-box h3 {
+@media screen and (max-width: 955px) {
+  .container {
+  background-position: 80%;
+}
+}
+@media screen and (max-width: 666px) {
+  .text-box p {
   font-size: 30px;
+  font-weight: 600;
+}
+.text-box h1 {
+  font-size: 70px;
+  line-height: 120px;
+  margin-bottom: 20px;
+}
+.text-box h3 {
+  font-size: 23px;
   font-weight: 500;
+}
+}
+@media screen and (max-width: 434px) {
+    .container {
+  background-position: 78%;
+}
+  .text-box p {
+  font-size: 30px;
+  font-weight: 600;
+}
+.text-box h1 {
+  font-size: 60px;
+  line-height: 120px;
+  margin-bottom: 20px;
+}
+.text-box h3 {
+  font-size: 20px;
+  font-weight: 500;
+}
 }

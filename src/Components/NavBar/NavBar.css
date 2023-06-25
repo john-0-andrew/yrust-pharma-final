@@ -1,8 +1,17 @@
 .logo {
   width: 200px;
   transition: filter 0.3s ease;
+    position: fixed;
+  top: 33px;
+  left: 30px;
+  display: block;
+  z-index: 11;
+  transition: all 250ms linear;
 }
-
+.logo img {
+  width: auto;
+  display: block;
+}
 .header {
   height: 130px;
   transition: background-color 0.3s ease;
@@ -19,7 +28,6 @@
 .logo.scrolled {
     filter: drop-shadow(5px 5px 10px #ffffff)
 }
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap");
 
 [type="checkbox"]:checked,
 [type="checkbox"]:not(:checked) {
@@ -248,18 +256,8 @@
   transition-delay: 1840ms;
 }
 
-.logo {
-  position: fixed;
-  top: 33px;
-  left: 30px;
-  display: block;
-  z-index: 11;
-  transition: all 250ms linear;
-}
-.logo img {
-  width: auto;
-  display: block;
-}
+
+
 
 @media screen and (max-width: 991px) {
   .menu-icon:checked + label,
@@ -275,5 +273,56 @@
 
   .nav ul li a {
     font-size: 5vh;
+  }
+}
+
+@media screen and (max-width: 780px) {
+  .nav ul li a {
+    font-size: 3.5vh;
+  }
+}
+@media screen and (max-width: 434px) {
+  .menu-icon:checked + label,
+  .menu-icon:not(:checked) + label {
+    right: 36px;
+    top: 38px;
+  }
+  .logo {
+    width: 120px;
+  }
+  .nav {
+  top: 20px;
+  right: 21px;
+  width: 60px;
+  height: 60px;
+}
+.header {
+  height: 100px;
+}
+  .nav ul li a {
+    font-size: 2.5vh;
+  }
+}
+@media screen and (max-width: 280px) {
+  .menu-icon:checked + label,
+  .menu-icon:not(:checked) + label {
+    right: 36px;
+    top: 38px;
+  }
+  .logo {
+    width: 100px;
+    left: 20px;
+  }
+  .nav {
+  top: 20px;
+  right: 21px;
+  width: 60px;
+  height: 60px;
+}
+.header {
+  height: 100px;
+}
+  .nav ul li a {
+    font-size: 2vh;
   }
 }
