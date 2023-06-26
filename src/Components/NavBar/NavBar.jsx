@@ -62,7 +62,7 @@ function NavBar() {
               </a>
             </li>
             <li>
-              <a href="#" onClick={closeNav}>
+              <a href="#WhyTrust" onClick={closeNav}>
                 Why Trust Pharma ?
               </a>
             </li>

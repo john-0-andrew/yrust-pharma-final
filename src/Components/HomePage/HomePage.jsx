@@ -3,7 +3,7 @@ import './HomePage.css'
 import NavBar from '../NavBar/NavBar';
 function HomePage() {
   return (
-    <div className=" container" id="home">
+    <div className=" container1" id="home">
         <NavBar/>
       <div className="text-box">
         <p>slogan</p>
