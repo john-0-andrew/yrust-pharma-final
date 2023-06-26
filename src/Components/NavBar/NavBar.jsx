@@ -1,5 +1,6 @@
 import "./NavBar.css";
 import logo from "../../assets/logo.png";
+import { Link, animateScroll as scroll } from "react-scroll";
 import { useEffect, useState } from "react";
 function NavBar() {
   const [navOpen, setNavOpen] = useState(false);
@@ -42,34 +43,44 @@ function NavBar() {
         <nav className="nav">
           <ul className="pt-5">
             <li>
-              <a href="#home" onClick={closeNav}>
+              <Link to="home" smooth={true} duration={500} onClick={closeNav}>
                 Home
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="#about-us" onClick={closeNav}>
+              <Link
+                to="about-us"
+                smooth={true}
+                duration={500}
+                onClick={closeNav}
+              >
                 About Us
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="#products" onClick={closeNav}>
+              <Link
+                to="products"
+                smooth={true}
+                duration={500}
+                onClick={closeNav}
+              >
                 Products
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="#Team" onClick={closeNav}>
+              <Link to="team" smooth={true} duration={500} onClick={closeNav}>
                 Team
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="#" onClick={closeNav}>
+              <Link to="" smooth={true} duration={500} onClick={closeNav}>
                 Why Trust Pharma ?
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="#" onClick={closeNav}>
+              <Link to="team" smooth={true} duration={500} onClick={closeNav}>
                 Contact Us
-              </a>
+              </Link>
             </li>
           </ul>
         </nav>

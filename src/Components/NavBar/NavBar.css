@@ -206,6 +206,7 @@
   position: relative;
   color: #25408f;
   transition: all 250ms linear;
+  cursor: pointer;
   /* text-decoration: none; */
   /* Remove underline */
 }
