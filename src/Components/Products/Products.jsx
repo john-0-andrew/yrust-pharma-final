@@ -17,8 +17,6 @@ const Card = ({ data }) => {
           <div className="projcard-subtitle">{subtitle}</div>
           <div className="projcard-bar"></div>
           <div className="projcard-description">{description}</div>
-          <div className="projcard-tagbox">
-          </div>
         </div>
       </div>
     </div>

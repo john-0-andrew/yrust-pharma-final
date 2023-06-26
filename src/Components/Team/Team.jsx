@@ -2,7 +2,7 @@ import "./Team.css";
 function Team(){
     return (
         <div>
-    <div className="t-title section2" id="Team">
+    <div className="t-title" id="team">
         <h1>Our Team</h1>
         </div>
     <div className="box">

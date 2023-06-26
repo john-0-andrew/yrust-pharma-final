@@ -19,6 +19,7 @@
     "react-dom": "^18.2.0",
     "three": "^0.153.0",
     "three-bas": "^3.0.0"
+    "react-scroll": "^1.8.9"
   },
   "devDependencies": {
     "@types/react": "^18.0.37",

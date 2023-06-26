@@ -1,3 +1,6 @@
 .site {
     scroll-behavior: smooth;
 }
+body,html,* {
+    scroll-behavior: smooth;
+}
