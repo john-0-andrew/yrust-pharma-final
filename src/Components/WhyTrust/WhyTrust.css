@@ -20,7 +20,7 @@ display: block;
     align-items: center;
 }
 
-p{
+.center p{
     width: 70%;
     font-size: 30px;
     display: block;

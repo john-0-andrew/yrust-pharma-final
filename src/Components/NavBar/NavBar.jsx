@@ -73,12 +73,22 @@ function NavBar() {
               </Link>
             </li>
             <li>
-              <Link to="WhyTrust" smooth={true} duration={500} onClick={closeNav}>
+              <Link
+                to="WhyTrust"
+                smooth={true}
+                duration={500}
+                onClick={closeNav}
+              >
                 Why Trust Pharma ?
               </Link>
             </li>
             <li>
-              <Link to="team" smooth={true} duration={500} onClick={closeNav}>
+              <Link
+                to="contact"
+                smooth={true}
+                duration={500}
+                onClick={closeNav}
+              >
                 Contact Us
               </Link>
             </li>
