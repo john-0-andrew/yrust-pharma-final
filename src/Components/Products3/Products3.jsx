@@ -38,6 +38,18 @@ function Products3() {
       description:
         "To provide superior quality healthcare services that: PATIENTS recommend to family and friends, PHYSICIANS prefer for their patients, PURCHASERS select for their clients, EMPLOYEES are proud of, and INVESTORS seek for long-term returns.",
     },
+    {
+      imgSrc: `${StartImage}`,
+      title: "Mission",
+      description:
+        "To provide superior quality healthcare services that: PATIENTS recommend to family and friends, PHYSICIANS prefer for their patients, PURCHASERS select for their clients, EMPLOYEES are proud of, and INVESTORS seek for long-term returns.",
+    },
+    {
+      imgSrc: `${StartImage}`,
+      title: "Mission",
+      description:
+        "To provide superior quality healthcare services that: PATIENTS recommend to family and friends, PHYSICIANS prefer for their patients, PURCHASERS select for their clients, EMPLOYEES are proud of, and INVESTORS seek for long-term returns.",
+    },
   ];
   return (
     <div className="products-page" id="products">

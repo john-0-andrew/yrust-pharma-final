@@ -46,7 +46,7 @@ function WhyTrust() {
   
   return (
    <div>
-      <div className="WT-title" id="Team">
+      <div className="title" id="Team">
         <h1>Why Trust Pharma LTD?</h1>
       </div>
         <div className="section3" id="WhyTrust">

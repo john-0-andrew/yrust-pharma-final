@@ -51,7 +51,7 @@ function NavBar() {
               <Link
                 to="about-us"
                 smooth={true}
-                duration={500}
+                duration={300}
                 onClick={closeNav}
               >
                 About Us
@@ -61,14 +61,14 @@ function NavBar() {
               <Link
                 to="products"
                 smooth={true}
-                duration={500}
+                duration={300}
                 onClick={closeNav}
               >
                 Products
               </Link>
             </li>
             <li>
-              <Link to="team" smooth={true} duration={500} onClick={closeNav}>
+              <Link to="team" smooth={true} duration={300} onClick={closeNav}>
                 Team
               </Link>
             </li>
@@ -76,7 +76,7 @@ function NavBar() {
               <Link
                 to="WhyTrust"
                 smooth={true}
-                duration={500}
+                duration={300}
                 onClick={closeNav}
               >
                 Why Trust Pharma ?
@@ -86,7 +86,7 @@ function NavBar() {
               <Link
                 to="contact"
                 smooth={true}
-                duration={500}
+                duration={300}
                 onClick={closeNav}
               >
                 Contact Us

@@ -1,16 +1,17 @@
-import StartImage from '../../assets/Start.jpg'
+import AboutUsCrew from "../../assets/AboutUsCrew.jpg";
+import AboutUsMolecules from "../../assets/AboutUsMolecules.jpg";
 
 import './AboutUs.css'
 
 function AboutUs() {
   return (
-    <div className="we-are-block" id='about-us'>
-      <div className="au-title">
+    <div className="we-are-block" id="about-us">
+      <div className="title">
         <h1>About Us</h1>
       </div>
       <div id="about-us-section">
         <div className="about-us-image">
-          <img src={StartImage} width="808" height="458" alt="Lobby Image" />
+          <img src={AboutUsCrew} width="808" height="458" alt="Lobby Image" />
         </div>
 
         <div className="about-us-info">
@@ -27,7 +28,12 @@ function AboutUs() {
 
       <div id="history-section">
         <div className="history-image">
-          <img src={StartImage} width="951" height="471" alt="Building Pic" />
+          <img
+            src={AboutUsMolecules}
+            width="808"
+            height="458"
+            alt="Building Pic"
+          />
         </div>
 
         <div className="history-info">
